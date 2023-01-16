@@ -1,0 +1,113 @@
+.navigation{
+    width: 100%;
+    position: relative;
+    min-height: 60px;
+    z-index: 1000;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+
+.navbar-brand{
+    color: #2299aa;
+    font-size: 2rem;
+}
+
+.questions{
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background: rgba(240, 5, 5, 0.45);
+    cursor: default;
+    border-radius: 1rem;
+}
+
+#question{
+    margin-bottom: 1rem;
+}
+
+.option{
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    border-bottom: solid 0.1rem blue;
+    width: 15rem;
+    background: lightblue;
+    border-radius: 1rem;
+}
+
+.option:hover{
+    color: white;
+}
+
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: rgb(1, 73, 73);
+}
+
+span{
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+
+#answer{
+    margin-top: 2.5rem;
+}
+
+#start{
+    margin-top: 1.5rem;
+    color: rgb(6, 17, 168);
+}
+
+.buttons{
+    text-align: center;
+}
+
+button{
+    padding: 0.2rem 1.5rem;
+    border: 2px solid;
+    border-color: rgba(241, 13, 13, 0.98);
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: black;
+    background: rgba(233, 233, 128, 0.82);
+}
+
+button:active{
+    background: lavender;
+}
+
+#scoreboard, #answerBank{
+    width: 20rem;
+    background: rgba(186, 186, 214, 0.77);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+
+}
+
+#score-title{
+    margin: 1rem 0;
+}
+
+#score-btn, #check-answer{
+    margin-top: 1rem;
+}
+
+#score{
+    font-size: 2.5rem;
+}
+
+#answerBank li{
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: large;
+}
+
+#answers{
+    margin-top: 1rem;
+}
